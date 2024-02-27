@@ -4,11 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
+    <style>
+      #Resume{
+        color: orange;
+        font-weight: bolder;
+      }
+      .heading{
+        color: red;
+        font-style: italic;
+      }
+      .links a{
+        text-decoration: none;
+      }
+      .icon{
+        color: blueviolet;
+        font-weight: bolder;
+      }
+
+    </style>
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <p>
+      <p class="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -22,8 +40,7 @@
             fill-rule="evenodd"
             d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
           />
-        </svg>
-        &nbsp; Onkar Shinde &nbsp; &nbsp; &nbsp;
+        </svg>Onkar Shinde &nbsp; &nbsp; &nbsp;
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -38,7 +55,7 @@
           />
         </svg>
         &nbsp; 7038 6940 50 &nbsp; &nbsp; &nbsp;
-        <svg
+        <svg 
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
@@ -51,18 +68,18 @@
           />
         </svg>
         &nbsp; omkarshindepatil163@gmail.com &nbsp; &nbsp; &nbsp;
-        <a href="assets/omkar resume.docx" download>  
+        <a href="assets/omkar resume.docx" download id="Resume">  
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
             <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
             <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-          </svg>
-           Download Resume  </a>
+          </svg >
+           Download Resume </a>
 
       </p>
     </header>
 
     <!-- Navigation Section -->
-    <nav>
+    <nav class="links">
       <a href="#home">HOME</a>&nbsp; &nbsp; &nbsp;
       <a href="#techStach">TECH STACK</a>&nbsp;&nbsp; &nbsp;
       <a href="#Project">PROJECT</a>&nbsp; &nbsp; &nbsp;
@@ -75,7 +92,7 @@
     <section>
       <!-- Home Suction -->
       <section id="home">
-        <h2>Professional Summary</h2>
+        <h2 class="heading">Professional Summary</h2>
         <ul>
           <li>
             Having I years of experience in developing single page Web
@@ -103,7 +120,7 @@
       <hr>
       <!-- Technology Stach section --> 
       <section id="techStach">
-        <h2>MY Technology Stack</h2>
+        <h2 class="heading">MY Technology Stack</h2>
         <table border>
           <thead>
             <tr>
@@ -139,7 +156,7 @@
       <hr>
       <!-- Project Section  -->
       <section id="Project">
-        <h2>Project</h2>
+        <h2 class="headind"> Projects</h2>
         
     <p><b>Name: <u>Student Management</u></b></p>
     <p><b>Environment:</b> &nbsp;&nbsp;Angular,React,Java,JavaScript,HTML,CSS,Mootstrap,GitHub,Agile and JIRA</p>
