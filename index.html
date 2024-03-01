@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <style>
     #Resume {
       color: orange;
@@ -14,6 +17,7 @@
     .heading {
       color: red;
       font-style: italic;
+      font-family: "Roboto", sans-serif;
     }
 
     .links a {
@@ -23,6 +27,19 @@
     .icon {
       color: blueviolet;
       font-weight: bolder;
+    }
+    table,tr,th,td{
+      border: 2px solid rgb(225, 172, 73);
+      border-collapse: collapse;
+    }
+    td,th{
+      padding: 10px;
+    }
+    #techtable{
+      width: 50%;
+    }
+    .link{
+      font-family: "Poppins", sans-serif;
     }
   </style>
 </head>
@@ -77,7 +94,7 @@
     <!-- Home Suction -->
     <section id="home">
       <h2 class="heading">Professional Summary</h2>
-      <ul>
+      <ul class="link">
         <li>
           Having I years of experience in developing single page Web
           Application using Angular 8, HTML5,CSS3.Bootstrap 5, Javascript
@@ -103,9 +120,9 @@
     </section>
     <hr />
     <!-- Technology Stach section -->
-    <section id="techStach">
+    <section>
       <h2 class="heading">MY Technology Stack</h2>
-      <table border>
+      <table id="techtable">
         <thead>
           <tr>
             <th>Sr.no</th>
@@ -139,7 +156,7 @@
     </section>
     <hr />
     <!-- Project Section  -->
-    <section id="Project">
+    <section class="link">
       <h2 class="headind">Projects</h2>
 
       <p>
@@ -162,7 +179,7 @@
       </p>
       <hr />
       <h2>Roles and Responsibilities</h2>
-      <ul>
+      <ul class="link">
         <li>
           Designed and Implemented the user interface using HTML5 and CSS3
         </li>
@@ -181,7 +198,7 @@
     <!-- Education Section -->
     <section id="Education">
       <h2>Eduction Section</h2>
-      <table border>
+      <table >
         <thead>
           <tr>
             <th>Qaulification</th>
