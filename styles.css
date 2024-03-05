@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+  
+#Resume {
+  color: orange;
+  font-weight: bolder;
+}
+
+.heading {
+  color: red;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+.links{
+  padding: 10px;
+  text-align: right;
+}
+.links li{
+  display: inline;
+  margin-right: 40px;
+}
+#container{
+  width: 800px;
+  margin: auto;
+}
+.icon{
+  color:aliceblue;
+  font-weight: bolder;
+  background-color: rgb(9, 8, 8);
+  position: fixed;
+}
+table,tr,th,td{
+  border: 2px solid rgb(225, 172, 73);
+  border-collapse: collapse;
+}
+td,th{
+  padding: 10px;
+}
+#techtable{
+  width: 50%;
+}
+.link li{
+  font-family: "Poppins", sans-serif;
+  list-style: circle;
+}
+#whatsapp{
+   bottom: 20px;
+   right: 20px;
+   position: fixed;
+
+}
